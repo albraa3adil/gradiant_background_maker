@@ -18,4 +18,20 @@ color1.addEventListener("input", setGradiant);
 color2.addEventListener("input", setGradiant);
 
 angle.addEventListener("input", setGradiant);
+
+function copy() {
+	// Get the text field
+	var copyText = document.getElementById("copy").textContent;
+	console.log(copyText.textContent);
+  
+	// Select the text field
+	// copyText.select();
+	// copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+	 // Copy the text inside the text field
+	navigator.clipboard.writeText(copyText);
+  
+	// Alert the copied text
+	// alert("Copied the text: " + copyText);
+  }
 //ok

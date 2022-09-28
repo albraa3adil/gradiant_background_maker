@@ -35,6 +35,16 @@ body {
 .fa-whatsapp:hover{
   color: #3ee25b;
 }
+.fa-phone {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none !important;
+  }
+.fa-phone:hover{
+  color: #328942;
+  /* lkl */
+}
   .fa-instagram {
     color: #ffffff;
     border: none;
@@ -123,4 +133,25 @@ body {
     text-transform: none;
     line-height: 1.8em;
     font-size: 1rem;
+}
+.fa-copy{
+    width: 14px;
+    height: 14px;
+}
+button {
+    height: 35px;
+    width: 35px;
+    padding: 5px 6px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+button:active{
+  background: #85f4a3;
+}
+.copy_con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
