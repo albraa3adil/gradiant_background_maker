@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+body {
+	background: linear-gradient(to right, black, white);
+	text-align: center;
+}
+.colors{
+	display: flex;
+	flex-direction: column;
+}
+.angle{
+	padding: 20px;
+}
+.angle input {
+	width: 100px;
+    height: 26px;
+    border-radius: 8px;
+}
+.fa-twitter {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+.fa-twitter:hover{
+  color: #1d9bf0;
+}
+.fa-whatsapp {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+.fa-whatsapp:hover{
+  color: #3ee25b;
+}
+  .fa-instagram {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  .fa-instagram:hover{
+    /* color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  */
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .fa-google {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  .fa-google:hover{
+    background: -webkit-linear-gradient(36deg, #4285F4 6%,#EA4335 60.3%,#FBBC05 57.6%,#34A853 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bottom-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 3vw;
+    pointer-events: auto;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    /* background: rgb(248, 204, 108); */
+}
+
+.bottom-box-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-box-media-links {
+    margin: 0 12px;
+    font-size: 26px;
+}
+
+.bottom-box-pages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.bottom-box-pages-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgb(124, 122, 122);
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1.6rem;
+}
+.bottom-box-mine {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.bod {
+  margin: 0;
+}
+.bottom-box-mine-links {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8em;
+    font-size: 1rem;
+}
