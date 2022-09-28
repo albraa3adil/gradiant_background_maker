@@ -36,13 +36,13 @@ body {
   color: #3ee25b;
 }
 .fa-phone {
-    color: #ffffff;
+    color: #ffffff !important;
     border: none;
     outline: none;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 .fa-phone:hover{
-  color: #3ee25b;
+  color: #328942;
 }
   .fa-instagram {
     color: #ffffff;
