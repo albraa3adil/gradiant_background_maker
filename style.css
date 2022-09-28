@@ -35,6 +35,15 @@ body {
 .fa-whatsapp:hover{
   color: #3ee25b;
 }
+.fa-phone {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+.fa-phone:hover{
+  color: #3ee25b;
+}
   .fa-instagram {
     color: #ffffff;
     border: none;
